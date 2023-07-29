@@ -1,0 +1,84 @@
+    h1{
+        color: red;
+        font-family: 'impact';
+        background-color: #19807e;
+        padding: 250px;
+        background-image: url("images/charvieu1.jpg");
+        border-image-width: 100px;
+        background-attachment:fixed ;
+        background-position: top;
+    }
+    
+
+
+                                /*c'est super facile faut faire comme l'exemple, on rentre la réference du paragraphe HTML qu'on veut modifier
+                                On rentre ensuite dans le HEAD de notre HTML :     <link rel="stylesheet" href="css1.css"/>  d*/
+    h2 {
+        color: #040278;
+        font-size: 35px;
+        font-family: 'impact';
+        background-color: #8eb3d1;
+    }
+
+    p {
+        color: red;
+    }
+
+
+    h3 {
+        color: #5a00f5;
+        font-size: 45px;
+        font-family: 'Pacifico', cursive;
+        background: linear-gradient(to right, #108dc7, #ef8e38);
+    }
+
+    h4 {
+        color: #ffff00;
+        font-size: 25px;
+        font-family: 'Comic Sans MS';
+        background-color: #040278;
+    }
+
+    h5 {
+        color: #ffff00;
+        font-size: 25px;
+        font-family: 'Comic Sans MS';
+        background-color: #119e1d;
+    }
+
+    .slip {
+        color: red;
+        font-size: 70px;
+        font-family: 'impact';
+    }
+
+    ul {
+    font-size: 35px;
+    font-family: 'Pacifico', cursive;
+    color: black;
+    background-color:#ef8e38;
+    }
+
+    .slip2 {
+        color: #040278;
+        font: size 35px;;
+        font-family: 'impact';
+    }
+
+    body{
+        background: linear-gradient(to right, #005aa7, #fffde4);
+    }
+
+    .annonce {
+        font-size: 90px;
+    }
+
+    .week {
+        font-size: 120px;
+    }
+
+    .fdp{
+        color: black;
+        font-size: 200px;
+        font-family: 'impact'
+    }

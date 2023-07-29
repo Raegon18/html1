@@ -1,0 +1,27 @@
+    body{
+        background-image: url("images/charvieu1croyable.jpg");
+        background-size:  contain;
+        background-repeat: not repeat;
+        background-position: center;
+
+    }
+
+
+    h1 {
+        color: red;
+        font-family: 'impact';
+        font-size: 150px;
+
+    }
+
+    h3 {
+        color: red;
+        font-family: 'impact';
+        font-size: 80px;
+    }
+
+    h4{
+        color: red;
+        font-family: 'impact';
+        font-size: 80px;
+    }
