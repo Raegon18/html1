@@ -72,6 +72,22 @@ h1{
     }
 
 
+    p {
+        color: black;
+        font-size: 75px;
+        font-family: 'MV Boli';
+        
+    }
+    .aplus {
+        background-color: lightskyblue;
+        border: 8px double black;
+        border-radius: 16px;
+        box-shadow: 20px 20px 40px black;
+        text-shadow: 6px 6px 12px black;
+    }
+    
+
+
     body{
         background: linear-gradient(to right, #005aa7, #fffde4);
     }
@@ -79,7 +95,15 @@ h1{
 
 
 
+    
 /* PAS COMPRIS WLH
+
+img:hover + .aplus {
+    border: 10px double aqua;
+    border-radius: 16px;
+}
+
+
     .slip:focus {
         background-color: aqua;
         color: blue;
