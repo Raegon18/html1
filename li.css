@@ -1,3 +1,12 @@
+ul {
+    font-size: 35px;
+    font-family: 'Pacifico', cursive;
+    color: black;
+    background-color:#ef8e38;
+    padding: 60px;
+}
+
+
 .li1 {
     background-color: white;
     border-left: 12px solid whitesmoke;
@@ -45,6 +54,12 @@
 
 }
 
+p {
+    color: black;
+    font-size: 75px;
+    font-family: 'MV Boli';
+    
+}
 .aplus {
     background-color: lightskyblue;
     border: 8px double black;

@@ -1,6 +1,10 @@
-    h1{
+/*c'est super facile faut faire comme l'exemple, 
+on rentre la réference du paragraphe HTML qu'on veut modifierOn rentre ensuite dans le HEAD de notre HTML :     <link rel="stylesheet" href="css1.css"/>  d*/
+
+h1{
         color: red;
         font-family: 'impact';
+        font-size: 70px;
         background-color: #19807e;
         padding: 250px;
         background-image: url("images/charvieu1.jpg");
@@ -8,26 +12,37 @@
         background-attachment:fixed ;
         background-position: top;
     }
-    
-
-
-                                /*c'est super facile faut faire comme l'exemple, on rentre la réference du paragraphe HTML qu'on veut modifier
-                                On rentre ensuite dans le HEAD de notre HTML :     <link rel="stylesheet" href="css1.css"/>  d*/
-    h2 {
-        color: #040278;
-        font-size: 35px;
-        font-family: 'impact';
-        background-color: #8eb3d1;
+    .annonce {
+        font-size: 90px;
     }
-
-    p {
+    .week {
+        font-size: 120px;
+    }
+    .slip,
+    .annonce,
+    .week {
+        border: 10px solid black;
+    }
+    .annonce:hover,
+    .week:hover,
+    .slip:hover {
         color: black;
-        font-size: 75px;
-        font-family: 'MV Boli';
+        border: 10px solid red;
+        text-decoration: underline red;
         
     }
 
 
+    h2 {
+        color: #040278;                         
+        
+        font-size: 35px;
+        font-family: 'impact';
+    }
+    .h2{
+        border: 14px dotted black;
+        border-radius: 28px;
+    }
 
 
     h3 {
@@ -36,6 +51,11 @@
         font-family: 'Pacifico', cursive;
         background: linear-gradient(to right, #108dc7, #ef8e38);
     }
+    .ragla{
+        border: 10px solid #5a00f5;
+        border-radius: 20px 50px 20px 50px;
+    }
+
 
     h4 {
         color: #ffff00;
@@ -44,6 +64,7 @@
         background-color: #040278;
     }
 
+
     h5 {
         color: #ffff00;
         font-size: 25px;
@@ -51,56 +72,12 @@
         background-color: #119e1d;
     }
 
-    .slip {
-        color: red;
-        font-size: 70px;
-        font-family: 'impact';
-        border: 10px solid black;
-        
-    }
-
-    ul {
-    font-size: 35px;
-    font-family: 'Pacifico', cursive;
-    color: black;
-    background-color:#ef8e38;
-    padding: 60px;
-    }
-
-    .slip2 {
-        color: #040278;
-        font: size 35px;;
-        font-family: 'impact';
-    }
 
     body{
         background: linear-gradient(to right, #005aa7, #fffde4);
     }
 
-    .annonce {
-        font-size: 90px;
-        border: 10px solid black;
-    }
 
-    .week {
-        font-size: 120px;
-        border: 10px solid black;
-    }
 
-    .ragla{
-        border: 10px solid #5a00f5;
-        border-radius: 20px 50px 20px 50px;
-    }
 
-    .h2{
-        border: 14px dotted black;
-        border-radius: 28px;
-    }
 
-    .annonce:hover,
-    .week:hover,
-    .slip:hover {
-        color: black;
-        border: 10px solid red;
-
-    }
