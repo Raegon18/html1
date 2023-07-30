@@ -100,5 +100,7 @@
     .annonce:hover,
     .week:hover,
     .slip:hover {
-        opacity: 0.5;
+        color: black;
+        border: 10px solid red;
+
     }
