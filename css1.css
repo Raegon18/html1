@@ -50,6 +50,8 @@
         color: red;
         font-size: 70px;
         font-family: 'impact';
+        border: 10px solid black;
+        
     }
 
     ul {
@@ -57,6 +59,7 @@
     font-family: 'Pacifico', cursive;
     color: black;
     background-color:#ef8e38;
+    padding: 60px;
     }
 
     .slip2 {
@@ -71,14 +74,20 @@
 
     .annonce {
         font-size: 90px;
+        border: 10px solid black;
     }
 
     .week {
         font-size: 120px;
+        border: 10px solid black;
     }
 
-    .fdp{
-        color: black;
-        font-size: 200px;
-        font-family: 'impact'
+    .ragla{
+        border: 10px solid #5a00f5;
+        border-radius: 20px 50px 20px 50px;
+    }
+
+    .h2{
+        border: 14px dotted black;
+        border-radius: 28px;
     }
