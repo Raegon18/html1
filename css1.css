@@ -33,6 +33,7 @@ h1{
     }
 
 
+
     h2 {
         color: #040278;                         
         
@@ -45,11 +46,11 @@ h1{
     }
 
 
+
     h3 {
         color: #5a00f5;
         font-size: 45px;
         font-family: 'Pacifico', cursive;
-        background: linear-gradient(to right, #108dc7, #ef8e38);
     }
     .ragla{
         border: 10px solid #5a00f5;
@@ -61,7 +62,6 @@ h1{
         color: #ffff00;
         font-size: 25px;
         font-family: 'Comic Sans MS';
-        background-color: #040278;
     }
 
 
@@ -69,7 +69,6 @@ h1{
         color: #ffff00;
         font-size: 25px;
         font-family: 'Comic Sans MS';
-        background-color: #119e1d;
     }
 
 
@@ -80,4 +79,10 @@ h1{
 
 
 
-
+/* PAS COMPRIS WLH
+    .slip:focus {
+        background-color: aqua;
+        color: blue;
+        outline-color: green;
+    }
+*/
