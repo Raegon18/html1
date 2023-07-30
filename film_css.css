@@ -1,21 +1,12 @@
     body{
-        background-image: url("images/charvieu1croyable.jpg");
-        background-size:  contain;
-        background-repeat: not repeat;
-        background-position: center;
+        background-color: darkgrey;
 
     }
 
 
-    h1 {
-        color: red;
-        font-family: 'impact';
-        font-size: 150px;
-
-    }
 
     h3 {
-        color: red;
+        color: black;
         font-family: 'impact';
         font-size: 80px;
     }
@@ -24,4 +15,27 @@
         color: red;
         font-family: 'impact';
         font-size: 80px;
+
+    }
+
+    .filmds {
+        color: red;
+        font-family: 'impact';
+        font-size: 150px;
+        border: 10px dashed black;
+        border-radius: 80px;
+        box-shadow: 6px 6px 15px rgb(00, 00, 00);
+        text-shadow: 8px 8px 15px black;
+    }
+
+    .sortie {
+        border: 10px double black;
+        border-radius: 52% 48% 44% 56% / 11% 9% 91% 89%;
+        
+    }
+
+    .explo {
+        border: 10px dotted black;
+        border-radius: 100% 0% 100% 0% / 50% 50% 50% 50%;
+        background-color: red;
     }
