@@ -96,3 +96,9 @@
         border: 14px dotted black;
         border-radius: 28px;
     }
+
+    .annonce:hover,
+    .week:hover,
+    .slip:hover {
+        opacity: 0.5;
+    }
