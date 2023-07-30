@@ -1,54 +1,44 @@
-.li1 {
-    background-color: white;
-    border-left: 12px solid whitesmoke;
-    border-right: 12px solid whitesmoke;
-    border-bottom: 12px solid black;
-    border-top: 12px solid black;
-    border-radius: 12px 12px 12px 12px;
-    box-shadow: 8px 8px 15px rgb(00, 00, 00);
+body{
+    background-color: darkgrey;
+
+}
+
+
+
+h3 {
+    color: black;
+    font-family: 'impact';
+    font-size: 80px;
+}
+
+h4{
+    color: red;
+    font-family: 'impact';
+    font-size: 80px;
+
+}
+
+.filmds {
+    color: red;
+    font-family: 'impact';
+    font-size: 150px;
+    border: 10px dashed black;
+    border-radius: 80px;
+    box-shadow: 6px 6px 15px rgb(00, 00, 00);
     text-shadow: 8px 8px 15px black;
-
 }
 
-.li2 {
-    background-color: white;
-    border-left: 12px solid whitesmoke;
-    border-right: 12px solid whitesmoke;
-    border-bottom: 12px solid black;
-    border-top: 12px solid black;
-    border-radius: 12px 12px 12px 12px;
-    box-shadow: 8px 8px 15px rgb(00, 00, 00);
-    text-shadow: 8px 8px 15px black;
-
+.sortie {
+    border: 10px double black;
+    border-radius: 52% 48% 44% 56% / 11% 9% 91% 89%;
+    
 }
 
-.li3 {
-    background-color: white;
-    border-left: 12px solid whitesmoke;
-    border-right: 12px solid whitesmoke;
-    border-bottom: 12px solid black;
-    border-top: 12px solid black;
-    border-radius: 12px 12px 12px 12px;
-    box-shadow: 8px 8px 15px rgb(00, 00, 00);
-    text-shadow: 8px 8px 15px black;
-
+.explo {
+    border: 10px dotted black;
+    border-radius: 100% 0% 100% 0% / 50% 50% 50% 50%;
+    background-color: red;
 }
 
-.li4 {
-    background-color: white;
-    border-right: 12px solid #FFD700;
-    border-bottom: 12px solid #FFD700;
-    border-radius: 0px 16px 16px 16px;
 
-    box-shadow: 16px 16px 30px white;
-    text-shadow: 6px 6px 12px rgb(0, 0, 0);
-}
-
-.aplus {
-    background-color: lightskyblue;
-    border: 8px double black;
-    border-radius: 16px;
-    box-shadow: 20px 20px 40px;
-    text-shadow: 6px 6px 12px ;
-}
 
