@@ -85,15 +85,29 @@ h1{
         box-shadow: 20px 20px 40px black;
         text-shadow: 6px 6px 12px black;
     }
+
+    .aplus:hover {
+        color: white;
+        background-color: black;
+        border: 8px double white;
+        border-radius: 16px;
+        box-shadow: 20px 20px 20px black;
+        text-shadow: 8px 8px 10px white;
+    }
     
 
 
     body{
-        background: linear-gradient(to right, #005aa7, #fffde4);
+        background: linear-gradient(to left, #1CB5E0, #000046);
     }
 
 
+/*
+#005aa7, #fffde4
 
+    #000046
+    #1CB5E0
+*/
 
     
 /* PAS COMPRIS WLH
