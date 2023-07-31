@@ -17,9 +17,8 @@ ul {
     font-size: 35px;
     font-family: 'Pacifico', cursive;
     color: white;
-    border: 12px solid skyblue;
     border-radius: 22px;
-    background-color: skyblue;
+    background-color: rgb(10, 71, 202);
 }
 
 
@@ -34,7 +33,7 @@ ul:active {
 .li2,
 .li3,
 .li4 {
-    background-color: skyblue;
+    background-color: rgb(10, 71, 202);
 
             border-radius: 12px ;
 
@@ -49,7 +48,7 @@ ul:active {
 
             border-radius: 12px;
 
-                box-shadow: 10px 10px 22px gold;
+                box-shadow: 10px 10px 50px ghostwhite;
                 text-shadow:3px 3px 10px white;
                 color: gold;
                 text-decoration: underline gold ;
@@ -58,8 +57,8 @@ ul:active {
 
 img:hover {
     border: 8px double gold;
-    -webkit-filter: drop-shadow(15px 15px 15px gold);
-        filter: drop-shadow(15px 15px 15px gold);
+    -webkit-filter: drop-shadow(15px 15px 60px gold);
+        filter: drop-shadow(15px 15px 60px gold);
 }
 
 
