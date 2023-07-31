@@ -38,6 +38,7 @@ ul:active {
         color: white;
             border-radius: 12px ;
                 text-shadow: 4px 4px 10px white;
+                text-decoration: underline white ;
 }
 
 .li1:hover,

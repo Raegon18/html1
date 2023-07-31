@@ -3,7 +3,7 @@ on rentre la réference du paragraphe HTML qu'on veut modifierOn rentre ensuite 
 
 h1{
         color: red;
-        font-family: 'impact';
+        font-family: 'Zilla Slab Highlight', cursive;
         font-size: 70px;
         background-color: #19807e;
         padding: 250px;
@@ -12,65 +12,83 @@ h1{
         background-attachment:fixed ;
         background-position: top;
     }
+
     .annonce {
         font-size: 90px;
     }
     .week {
         font-size: 120px;
     }
+
     .slip,
     .annonce,
     .week {
-        border: 10px solid black;
+        color: black;
+        border: 10px solid red;
     }
+
     .annonce:hover,
     .week:hover,
     .slip:hover {
-        color: black;
-        border: 10px solid red;
-        text-decoration: underline red;
+        color: red;
+        border: 10px solid black;
         
     }
 
 
 
-    h2 {
-        color: #040278;                         
+    h2,
+    h3 {
+        color: #5a00f5;                         
         
         font-size: 35px;
         font-family: 'impact';
     }
-    .h2{
-        border: 14px dotted black;
-        border-radius: 28px;
-    }
 
 
 
-    h3 {
-        color: #5a00f5;
-        font-size: 45px;
-        font-family: 'Pacifico', cursive;
-    }
+    .h2,
     .ragla{
         border: 10px solid #5a00f5;
-        border-radius: 20px 50px 20px 50px;
+        border-radius: 18% 82% 18% 82% / 82% 18% 82% 18% ;
     }
 
 
-    h4 {
-        color: #ffff00;
-        font-size: 25px;
-        font-family: 'Comic Sans MS';
+    .h2:hover ,
+    .ragla:hover {
+        box-shadow: 5px 5px 8px white ;
+        text-shadow:5px 5px 8px white ;
+        border: 10px solid white;
+        border-radius: 18% 82% 18% 82% / 82% 18% 82% 18% ;
     }
 
 
-    h5 {
-        color: #ffff00;
-        font-size: 25px;
-        font-family: 'Comic Sans MS';
+    h4,
+    h5 {                        
+        border: 10px solid #5a00f5;
+        border-radius: 18% 82% 18% 82% / 82% 18% 82% 18% ;
     }
 
+    h4:hover, 
+    h5:hover {
+        border: 10px solid white;
+        border-radius: 18% 82% 18% 82% / 82% 18% 82% 18% ;
+        box-shadow: 5px 5px 8px white ;
+    }
+
+
+    .h4,
+    .h5 {
+        color: #5a00f5;                         
+        
+        font-size: 35px;
+        font-family: 'impact';
+    }
+
+    .h5:hover,
+    .h4:hover {
+        text-shadow: 8px 8px 16px  white;
+    }
 
     p {
         color: black;
@@ -82,20 +100,20 @@ h1{
         background-color: lightskyblue;
         border: 8px double black;
         border-radius: 16px;
-        box-shadow: 20px 20px 40px black;
-        text-shadow: 6px 6px 12px black;
-        text-decoration: underline white;
-        color: black;
+            box-shadow: 20px 20px 40px black;
+            text-shadow: 6px 6px 12px black;
+                text-decoration: underline white;
+                color: black;
     }
 
     .aplus:hover {
         color: white;
         background-color: black;
-        border: 8px double white;
-        border-radius: 16px;
-        box-shadow: 20px 20px 20px black;
-        text-shadow: 8px 8px 10px white;
-        text-decoration: underline white;
+            border: 8px double white;
+            border-radius: 16px;
+                box-shadow: 20px 20px 20px black;
+                text-shadow: 8px 8px 10px white;
+                text-decoration: underline white;
     }
     
 
