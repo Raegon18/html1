@@ -16,7 +16,6 @@ ul {
 ul {
     font-size: 35px;
     font-family: 'Pacifico', cursive;
-    color: white;
     border-radius: 22px;
     background-color: rgb(10, 71, 202);
 }
@@ -34,9 +33,8 @@ ul:active {
 .li3,
 .li4 {
     background-color: rgb(10, 71, 202);
-
+        color: white;
             border-radius: 12px ;
-
                 text-shadow: 4px 4px 10px white;
 }
 
@@ -52,14 +50,49 @@ ul:active {
                 text-shadow:3px 3px 10px white;
                 color: gold;
                 text-decoration: underline gold ;
+}
+
+.li1:active,
+.li2:active,
+.li3:active, 
+.li4:active{
+
+
+            border-radius: 12px;
+
+                box-shadow: 10px 10px 50px ghostwhite;
+                text-shadow:3px 3px 10px white;
+                color: red;
+                text-decoration: underline red ;
 
 }
 
 img:hover {
-    border: 8px double gold;
-    -webkit-filter: drop-shadow(15px 15px 60px gold);
-        filter: drop-shadow(15px 15px 60px gold);
+    border: 4px double white;
+    -webkit-filter: drop-shadow(15px 15px 60px white);
+        filter: drop-shadow(15px 15px 60px white);
 }
 
 
+.menu3,
+.menu2,
+.menu1{
+    background: linear-gradient(to left, #1CB5E0, #1736e7);
+        border-radius: 12px;
+            font-family: Impact;
+            font-size: 32px;
+            color: black;
 
+
+}
+
+.menu3:hover,
+.menu2:hover,
+.menu1:hover{
+    box-shadow: 8px 8px 12px white;
+    border: 4px solid white;
+    border-radius: 12px;
+            color: white;
+
+
+}
